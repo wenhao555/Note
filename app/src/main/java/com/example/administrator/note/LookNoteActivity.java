@@ -49,7 +49,7 @@ public class LookNoteActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.delete:
-                //deleteByPos();
+
                 Intent intent1 = new Intent(LookNoteActivity.this, MyService.class);
                 intent1.putExtra("pos", pos);
                 startService(intent1);
