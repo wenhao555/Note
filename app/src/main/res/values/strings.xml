@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">记事本</string>
+    <string name="app_name">日记本</string>
     <string name="note">文字</string>
     <string name="img">图片</string>
     <string name="vid">视频</string>

@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 cursor.moveToPosition(position);
                 intent.putExtra(NotePadDB.ID, cursor.getString(cursor.getColumnIndex(NotePadDB.ID)));
                 intent.putExtra(NotePadDB.CONTENT, cursor.getString(cursor.getColumnIndex(NotePadDB.CONTENT)));
+                intent.putExtra(NotePadDB.IMG, cursor.getString(cursor.getColumnIndex(NotePadDB.IMG)));
                 intent.putExtra(NotePadDB.TIME, cursor.getString(cursor.getColumnIndex(NotePadDB.TIME)));
                 startActivity(intent);
             }
